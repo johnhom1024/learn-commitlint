@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx --no-install commitlint --edit $1
+# 或者 
+# npx --no-install commitlint --edit $HUSKY_GIT_PARAMS
