@@ -1,11 +1,12 @@
 {
   "name": "learn-commitlint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "author": "anthony <924358746@qq.com>",
   "license": "MIT",
   "scripts": {
-    "commit": "npx cz"
+    "commit": "npx cz",
+    "release": "standard-version"
   },
   "dependencies": {},
   "devDependencies": {
@@ -14,7 +15,8 @@
     "@commitlint/cz-commitlint": "^15.0.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "standard-version": "^9.3.2"
   },
   "config": {
     "commitizen": {
