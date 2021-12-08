@@ -1,0 +1,13 @@
+{
+  "name": "learn-commitlint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "anthony <924358746@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "npx cz"
+  },
+  "dependencies": {
+    "commitizen": "^4.2.4"
+  }
+}
